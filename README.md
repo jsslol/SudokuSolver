@@ -15,10 +15,9 @@ and for each value in the domain of the selected variable:</li>
   <ul>
     <li>assign a value to the selected variable from the variable’s domain</li>
     <li>recursively call search to select the next variable</li>
-    <li>unassign the value from the variable (the recursive call did not find a solution, so we move</li>
+    <li>unassign the value from the variable (the recursive call did not find a solution, so we move on to the next value in the domain)</li>
   </ul>
 </ul>
 
-on to the next value in the domain)
 # Results
 The program was able to solve 50/50 puzzles.
